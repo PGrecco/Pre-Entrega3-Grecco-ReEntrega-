@@ -1,4 +1,137 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 /*font-family: 'Bebas Neue', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+/*font-family: 'Lalezar', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap");
+/*font-family: 'Titillium Web', sans-serif;*/
+body {
+  background-color: rgb(233, 233, 231);
+}
+
+main h1 {
+  color: rgb(55, 95, 202);
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 40px;
+  font-family: "Titillium Web", sans-serif;
+}
+main form {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+}
+main form .email-section {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+main form .email-section .email-cuadro {
+  border: 2px solid rgba(126, 124, 124, 0.3137254902);
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+}
+main form .password-section {
+  margin-top: 10px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+main form .password-section .password-cuadro {
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  border: 2px solid rgba(126, 124, 124, 0.4235294118);
+}
+main form .remember-check {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  margin-top: 10px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main form .login {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  margin-top: 13px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(55, 95, 202);
+  border: 1px;
+  border-radius: 4px;
+  color: white;
+}
+main form .login:hover {
+  background-color: rgb(105, 105, 105);
+  transform: scale(0.98);
+}
+main form .new-account {
+  margin-top: 20px;
+  grid-column: 3/4;
+  grid-row: 5/6;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(79, 209, 61);
+  border: 1px;
+  border-radius: 4px;
+  color: white;
+}
+main form .new-account:hover {
+  background-color: rgb(209, 203, 203);
+  transform: scale(0.95);
+  color: rgb(105, 101, 101);
+}
+main .texto-bajo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(107, 105, 105, 0.937254902);
+  display: flex;
+  justify-content: center;
+}
+main .texto-bajo p a {
+  text-decoration: none;
+  color: #111;
+}
+
+footer {
+  padding-top: 19px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+footer hr {
+  width: 80%;
+  float: left;
+}
+footer .idiomas {
+  text-decoration: none;
+  color: rgba(107, 105, 105, 0.937254902);
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+footer .idiomas:hover {
+  text-decoration: underline;
+  color: rgba(54, 54, 54, 0.6156862745);
+}
+footer .services {
+  text-decoration: none;
+  color: rgba(107, 105, 105, 0.937254902);
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+footer .services:hover {
+  text-decoration: underline;
+  color: rgba(54, 54, 54, 0.6156862745);
+}
+footer p {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
 
 /*# sourceMappingURL=estilos.css.map */
