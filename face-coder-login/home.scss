@@ -5,7 +5,6 @@ background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rg
             background-color: rgb(55, 95, 202);
             height: 45px;
 
-        
             .navbar-nav{
                 display: flex;
                 align-items: center;
@@ -28,6 +27,171 @@ background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rg
             }
 
             
+        }
+
+        main{
+            .contenedor-publicaciones{
+                display: grid;
+                grid-template-columns: 550px 550px 550px 550px  ;
+                grid-template-rows:  520px 520px 520px 520px 520px ;
+                
+
+                .post0{
+                    background-color: #444444;
+                    border: 2px solid #111;
+                    margin-top: 30px;
+                    grid-column: 2/3;
+                    grid-row: 1/2;
+                    .post-usuario{
+                        display: flex;
+                        align-items: center;
+                        h2{
+                            font-size: 20px;
+                            margin-left: 10px;
+                            color: #fff;
+                        }
+                        img{
+                            height: 60px;
+                            padding-top: 10px;
+                            padding-left: 10px;
+                        }
+                    }
+                    .post-contenido{
+                        p{
+                            color: #fff;
+                            margin-left: 20px;
+                            margin-top: 10px;
+                            font-size: 15px;
+                            margin-bottom: 5px;
+                        }
+                        img{
+                            height: 310px;
+                            margin-left: 20px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .post-actions{
+                        margin-left: 30px;
+                        margin-bottom: 20px;
+                        .like{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(223, 13, 13);
+                            color: #fff;
+                        }
+                        .compartir{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(55, 95, 202);
+                            color: #fff;
+
+                        }
+                        .comentar{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(55, 95, 202);
+                            color: #fff;
+                        }
+                        a{
+                            i{
+                                color: #111;
+                                font-size: 20px;
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                   
+                }
+                .post1{
+                    border: 2px solid #111;
+                    margin-top: 30px;
+                    grid-column: 2/3;
+                    grid-row: 2/3;
+                    
+                    .post-usuario{
+                        display: flex;
+                        align-items: center;
+                        h2{
+                            font-size: 20px;
+                            margin-left: 10px;
+                            color: #fff;
+                        }
+                        img{
+                            height: 60px;
+                            padding-top: 10px;
+                            padding-left: 10px;
+                        }
+                    }
+                    .post-contenido{
+                        p{
+                            color: #fff;
+                            margin-left: 20px;
+                            margin-top: 10px;
+                            font-size: 15px;
+                            margin-bottom: 5px;
+                        }
+                        img{
+                            height: 310px;
+                            margin-left: 20px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .post-actions{
+                        margin-left: 30px;
+                        margin-bottom: 20px;
+                        .like{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(223, 13, 13);
+                            color: #fff;
+                        }
+                        .compartir{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(55, 95, 202);
+                            color: #fff;
+
+                        }
+                        .comentar{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(55, 95, 202);
+                            color: #fff;
+                        }
+                        a{
+                            i{
+                                color: #111;
+                                font-size: 20px;
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+                .post2{
+                    border: 2px solid #111;
+                    margin-top: 30px;
+                    grid-column: 2/3;
+                    grid-row: 3/4;
+                }
+                .post3{
+                    border: 2px solid #111;
+                    margin-top: 30px;
+                    grid-column: 2/3;
+                    grid-row: 4/5;
+                }
+            }
         }
 
 

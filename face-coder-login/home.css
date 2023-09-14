@@ -23,5 +23,153 @@ body nav .log-out {
   float: right;
   margin-left: 1420px;
 }
+body main .contenedor-publicaciones {
+  display: grid;
+  grid-template-columns: 550px 550px 550px 550px;
+  grid-template-rows: 520px 520px 520px 520px 520px;
+}
+body main .contenedor-publicaciones .post0 {
+  background-color: #444444;
+  border: 2px solid #111;
+  margin-top: 30px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+body main .contenedor-publicaciones .post0 .post-usuario {
+  display: flex;
+  align-items: center;
+}
+body main .contenedor-publicaciones .post0 .post-usuario h2 {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+body main .contenedor-publicaciones .post0 .post-usuario img {
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+body main .contenedor-publicaciones .post0 .post-contenido p {
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+body main .contenedor-publicaciones .post0 .post-contenido img {
+  height: 310px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+body main .contenedor-publicaciones .post0 .post-actions {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+body main .contenedor-publicaciones .post0 .post-actions .like {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(223, 13, 13);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post0 .post-actions .compartir {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(55, 95, 202);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post0 .post-actions .comentar {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(55, 95, 202);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post0 .post-actions a i {
+  color: #111;
+  font-size: 20px;
+  margin-left: 10px;
+}
+body main .contenedor-publicaciones .post1 {
+  border: 2px solid #111;
+  margin-top: 30px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+body main .contenedor-publicaciones .post1 .post-usuario {
+  display: flex;
+  align-items: center;
+}
+body main .contenedor-publicaciones .post1 .post-usuario h2 {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+body main .contenedor-publicaciones .post1 .post-usuario img {
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+body main .contenedor-publicaciones .post1 .post-contenido p {
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+body main .contenedor-publicaciones .post1 .post-contenido img {
+  height: 310px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+body main .contenedor-publicaciones .post1 .post-actions {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+body main .contenedor-publicaciones .post1 .post-actions .like {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(223, 13, 13);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post1 .post-actions .compartir {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(55, 95, 202);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post1 .post-actions .comentar {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(55, 95, 202);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post1 .post-actions a i {
+  color: #111;
+  font-size: 20px;
+  margin-left: 10px;
+}
+body main .contenedor-publicaciones .post2 {
+  border: 2px solid #111;
+  margin-top: 30px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+body main .contenedor-publicaciones .post3 {
+  border: 2px solid #111;
+  margin-top: 30px;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
 
 /*# sourceMappingURL=home.css.map */
