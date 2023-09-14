@@ -1,0 +1,43 @@
+
+body{
+background: rgb(52,52,52);
+background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rgba(238,238,238,1) 100%);        nav{
+            background-color: rgb(55, 95, 202);
+            height: 45px;
+
+        
+            .navbar-nav{
+                display: flex;
+                align-items: center;
+            }
+            
+            a{
+                color: #fff;
+                font-size: 20px;
+                span{
+                    font-size: 30px;
+                    font-family: 'Titillium Web', sans-serif;
+                    margin-right: 30px;
+                }
+
+            }
+
+            .log-out{
+                float: right;
+                margin-left: 1420px;
+            }
+
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+    }

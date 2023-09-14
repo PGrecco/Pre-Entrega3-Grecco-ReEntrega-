@@ -1,3 +1,27 @@
-
+body {
+  background: rgb(52, 52, 52);
+  background: linear-gradient(86deg, rgb(52, 52, 52) 0%, rgb(85, 85, 87) 35%, rgb(238, 238, 238) 100%);
+}
+body nav {
+  background-color: rgb(55, 95, 202);
+  height: 45px;
+}
+body nav .navbar-nav {
+  display: flex;
+  align-items: center;
+}
+body nav a {
+  color: #fff;
+  font-size: 20px;
+}
+body nav a span {
+  font-size: 30px;
+  font-family: "Titillium Web", sans-serif;
+  margin-right: 30px;
+}
+body nav .log-out {
+  float: right;
+  margin-left: 1420px;
+}
 
 /*# sourceMappingURL=home.css.map */
