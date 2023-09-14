@@ -59,11 +59,14 @@ main form .login {
   background-color: rgb(55, 95, 202);
   border: 1px;
   border-radius: 4px;
-  color: white;
 }
 main form .login:hover {
   background-color: rgb(105, 105, 105);
   transform: scale(0.98);
+}
+main form .login a {
+  color: white;
+  text-decoration: none;
 }
 main form .new-account {
   margin-top: 20px;

@@ -69,12 +69,16 @@ main{
             background-color: rgb(55, 95, 202);
             border: 1px;
             border-radius: 4px;
-            color: #ffff;
 
             &:hover{
                 background-color: rgb(105, 105, 105);
                 transform: scale(0.98);
 
+            }
+
+            a{
+                color: #ffff; 
+                text-decoration: none; 
             }
         }
 
