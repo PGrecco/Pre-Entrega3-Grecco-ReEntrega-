@@ -93,11 +93,18 @@ main{
             border-radius: 4px;
             color: #ffff;
             
+            a{
+                color: #ffff;
+                text-decoration: none;
+            }
+            
             &:hover{
                 background-color: rgb(209, 203, 203);
                 transform: scale(0.95);
                 color: rgb(105, 101, 101);
-        }
+
+            }
+
         }
     }
 

@@ -79,6 +79,10 @@ main form .new-account {
   border-radius: 4px;
   color: white;
 }
+main form .new-account a {
+  color: white;
+  text-decoration: none;
+}
 main form .new-account:hover {
   background-color: rgb(209, 203, 203);
   transform: scale(0.95);
