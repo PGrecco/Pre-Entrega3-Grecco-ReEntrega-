@@ -26,11 +26,12 @@ body nav .log-out {
 body main .contenedor-publicaciones {
   display: grid;
   grid-template-columns: 550px 550px 550px 550px;
-  grid-template-rows: 520px 520px 520px 520px 520px;
+  grid-template-rows: 520px 520px 540px 560px 200px;
 }
 body main .contenedor-publicaciones .post0 {
   background-color: #444444;
   border: 2px solid #111;
+  border-radius: 5px;
   margin-top: 30px;
   grid-column: 2/3;
   grid-row: 1/2;
@@ -73,6 +74,9 @@ body main .contenedor-publicaciones .post0 .post-actions .like {
   background-color: rgb(223, 13, 13);
   color: #fff;
 }
+body main .contenedor-publicaciones .post0 .post-actions .like:hover {
+  transform: scale(0.8);
+}
 body main .contenedor-publicaciones .post0 .post-actions .compartir {
   border: none;
   border-radius: 10px;
@@ -80,6 +84,9 @@ body main .contenedor-publicaciones .post0 .post-actions .compartir {
   width: 90px;
   background-color: rgb(55, 95, 202);
   color: #fff;
+}
+body main .contenedor-publicaciones .post0 .post-actions .compartir:hover {
+  transform: scale(0.8);
 }
 body main .contenedor-publicaciones .post0 .post-actions .comentar {
   border: none;
@@ -89,13 +96,21 @@ body main .contenedor-publicaciones .post0 .post-actions .comentar {
   background-color: rgb(55, 95, 202);
   color: #fff;
 }
+body main .contenedor-publicaciones .post0 .post-actions .comentar:hover {
+  transform: scale(0.8);
+}
 body main .contenedor-publicaciones .post0 .post-actions a i {
   color: #111;
   font-size: 20px;
   margin-left: 10px;
 }
+body main .contenedor-publicaciones .post0 .post-actions a i:hover {
+  transform: scale(0.8);
+}
 body main .contenedor-publicaciones .post1 {
+  background-color: #444444;
   border: 2px solid #111;
+  border-radius: 5px;
   margin-top: 30px;
   grid-column: 2/3;
   grid-row: 2/3;
@@ -138,6 +153,9 @@ body main .contenedor-publicaciones .post1 .post-actions .like {
   background-color: rgb(223, 13, 13);
   color: #fff;
 }
+body main .contenedor-publicaciones .post1 .post-actions .like:hover {
+  transform: scale(0.8);
+}
 body main .contenedor-publicaciones .post1 .post-actions .compartir {
   border: none;
   border-radius: 10px;
@@ -145,6 +163,9 @@ body main .contenedor-publicaciones .post1 .post-actions .compartir {
   width: 90px;
   background-color: rgb(55, 95, 202);
   color: #fff;
+}
+body main .contenedor-publicaciones .post1 .post-actions .compartir:hover {
+  transform: scale(0.8);
 }
 body main .contenedor-publicaciones .post1 .post-actions .comentar {
   border: none;
@@ -154,22 +175,362 @@ body main .contenedor-publicaciones .post1 .post-actions .comentar {
   background-color: rgb(55, 95, 202);
   color: #fff;
 }
+body main .contenedor-publicaciones .post1 .post-actions .comentar:hover {
+  transform: scale(0.8);
+}
 body main .contenedor-publicaciones .post1 .post-actions a i {
   color: #111;
   font-size: 20px;
   margin-left: 10px;
 }
+body main .contenedor-publicaciones .post1 .post-actions a i:hover {
+  transform: scale(0.8);
+}
 body main .contenedor-publicaciones .post2 {
+  border-radius: 5px;
+  background-color: #444444;
   border: 2px solid #111;
   margin-top: 30px;
   grid-column: 2/3;
   grid-row: 3/4;
 }
+body main .contenedor-publicaciones .post2 .post-usuario {
+  display: flex;
+  align-items: center;
+}
+body main .contenedor-publicaciones .post2 .post-usuario h2 {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+body main .contenedor-publicaciones .post2 .post-usuario img {
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+body main .contenedor-publicaciones .post2 .post-contenido p {
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+body main .contenedor-publicaciones .post2 .post-contenido img {
+  height: 310px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+body main .contenedor-publicaciones .post2 .post-actions {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+body main .contenedor-publicaciones .post2 .post-actions .like {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(223, 13, 13);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post2 .post-actions .like:hover {
+  transform: scale(0.8);
+}
+body main .contenedor-publicaciones .post2 .post-actions .compartir {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(55, 95, 202);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post2 .post-actions .compartir:hover {
+  transform: scale(0.8);
+}
+body main .contenedor-publicaciones .post2 .post-actions .comentar {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(55, 95, 202);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post2 .post-actions .comentar:hover {
+  transform: scale(0.8);
+}
+body main .contenedor-publicaciones .post2 .post-actions a i {
+  color: #111;
+  font-size: 20px;
+  margin-left: 10px;
+}
+body main .contenedor-publicaciones .post2 .post-actions a i:hover {
+  transform: scale(0.8);
+}
 body main .contenedor-publicaciones .post3 {
+  border-radius: 5px;
+  background-color: #444444;
   border: 2px solid #111;
   margin-top: 30px;
   grid-column: 2/3;
   grid-row: 4/5;
+}
+body main .contenedor-publicaciones .post3 .post-usuario {
+  display: flex;
+  align-items: center;
+}
+body main .contenedor-publicaciones .post3 .post-usuario h2 {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+body main .contenedor-publicaciones .post3 .post-usuario img {
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+body main .contenedor-publicaciones .post3 .post-contenido p {
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+body main .contenedor-publicaciones .post3 .post-contenido img {
+  height: 310px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+body main .contenedor-publicaciones .post3 .post-actions {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+body main .contenedor-publicaciones .post3 .post-actions .like {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(223, 13, 13);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post3 .post-actions .like:hover {
+  transform: scale(0.8);
+}
+body main .contenedor-publicaciones .post3 .post-actions .compartir {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(55, 95, 202);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post3 .post-actions .compartir:hover {
+  transform: scale(0.8);
+}
+body main .contenedor-publicaciones .post3 .post-actions .comentar {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(55, 95, 202);
+  color: #fff;
+}
+body main .contenedor-publicaciones .post3 .post-actions .comentar:hover {
+  transform: scale(0.8);
+}
+body main .contenedor-publicaciones .post3 .post-actions a i {
+  color: #111;
+  font-size: 20px;
+  margin-left: 10px;
+}
+body main .contenedor-publicaciones .post3 .post-actions a i:hover {
+  transform: scale(0.8);
+}
+body main .contenedor-publicaciones .columna-derecha {
+  background-color: #696969;
+  grid-column: 4/5;
+  grid-row: 1/5;
+}
+body main .contenedor-publicaciones .columna-derecha .publicidades ul hr {
+  margin-top: 0px;
+  height: 5px;
+}
+body main .contenedor-publicaciones .columna-derecha .publicidades ul h2 {
+  margin-top: 20px;
+  color: #fff;
+}
+body main .contenedor-publicaciones .columna-derecha .publicidades ul li {
+  list-style: none;
+}
+body main .contenedor-publicaciones .columna-derecha .publicidades ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+body main .contenedor-publicaciones .columna-derecha .lista-paginas ul h2 {
+  margin-top: 20px;
+  color: #fff;
+}
+body main .contenedor-publicaciones .columna-derecha .lista-paginas ul hr {
+  margin-top: 0px;
+}
+body main .contenedor-publicaciones .columna-derecha .lista-paginas ul li {
+  list-style: none;
+}
+body main .contenedor-publicaciones .columna-derecha .lista-paginas ul li a {
+  color: #fff;
+}
+body main .contenedor-publicaciones .columna-derecha .amigos-en-linea {
+  background-color: #696969;
+}
+body main .contenedor-publicaciones .columna-derecha .amigos-en-linea ul h2 {
+  margin-top: 20px;
+  color: #fff;
+}
+body main .contenedor-publicaciones .columna-derecha .amigos-en-linea ul hr {
+  margin-top: 0px;
+}
+body main .contenedor-publicaciones .columna-derecha .amigos-en-linea ul li {
+  list-style: none;
+}
+body main .contenedor-publicaciones .columna-derecha .amigos-en-linea ul li a {
+  color: #fff;
+}
+body main .contenedor-publicaciones .columna-derecha .amigos-en-linea ul li a .online {
+  color: rgb(50, 250, 50);
+}
+body main .contenedor-publicaciones .columna-derecha .amigos-en-linea ul li a .outline {
+  color: red;
+}
+body main .contenedor-publicaciones .columna-izquierda {
+  grid-column: 1/2;
+  grid-row: 1/5;
+}
+body main .contenedor-publicaciones .columna-izquierda .perfil img {
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+body main .contenedor-publicaciones .columna-izquierda .perfil h2 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+  color: #fff;
+}
+body main .contenedor-publicaciones .columna-izquierda .chating {
+  background: rgb(55, 95, 202);
+}
+body main .contenedor-publicaciones .columna-izquierda .chating h3 {
+  margin-left: 50px;
+  padding-top: 10px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+body main .contenedor-publicaciones .columna-izquierda .chating hr {
+  margin-top: 0px;
+}
+body main .contenedor-publicaciones .columna-izquierda .chating .chats {
+  display: flex;
+}
+body main .contenedor-publicaciones .columna-izquierda .chating .chats ul li {
+  list-style: none;
+  margin-left: 0px;
+}
+body main .contenedor-publicaciones .columna-izquierda .chating .chats ul li a {
+  color: #fff;
+}
+body main .contenedor-publicaciones .columna-izquierda .chating .chats ul li a .online {
+  color: rgb(50, 250, 50);
+}
+body main .contenedor-publicaciones .columna-izquierda .chating .chats ul li a .outline {
+  color: red;
+}
+body main .contenedor-publicaciones .eventos h3 {
+  margin-top: 30px;
+  color: #fff;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+body main .contenedor-publicaciones .eventos hr {
+  margin-top: 0px;
+}
+body main .contenedor-publicaciones .eventos .calendario {
+  margin-left: 40px;
+}
+body main .contenedor-publicaciones .eventos .calendario table thead tr th {
+  background-color: #fff;
+  padding: 4px;
+  color: #111;
+  border: 2px solid #111;
+}
+body main .contenedor-publicaciones .eventos .calendario table tbody tr td {
+  background-color: #696969;
+  padding-left: 6px;
+  border: 2px solid #111;
+}
+body main .contenedor-publicaciones .eventos .calendario table tbody tr td a {
+  color: #fff;
+}
+body main .contenedor-publicaciones .eventos .calendario table tbody tr td a .date {
+  color: red;
+}
+body main .contenedor-publicaciones .juegos h3 {
+  margin-top: 30px;
+  color: #fff;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+body main .contenedor-publicaciones .juegos hr {
+  margin-top: 0px;
+}
+body main .contenedor-publicaciones .juegos ul li {
+  list-style: none;
+}
+body main .contenedor-publicaciones .juegos ul li a {
+  color: #fff;
+  font-size: 20px;
+  color: rgb(155, 173, 231);
+}
+body main .contenedor-publicaciones .juegos ul li a:hover {
+  color: rgb(241, 241, 241);
+}
+body footer {
+  position: end;
+  bottom: 0;
+  height: 200px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+body footer hr {
+  width: 80%;
+  float: left;
+}
+body footer .idiomas {
+  text-decoration: none;
+  color: rgba(107, 105, 105, 0.937254902);
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+body footer .idiomas:hover {
+  text-decoration: underline;
+  color: rgba(54, 54, 54, 0.6156862745);
+}
+body footer .services {
+  text-decoration: none;
+  color: rgba(107, 105, 105, 0.937254902);
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+body footer .services:hover {
+  text-decoration: underline;
+  color: rgba(54, 54, 54, 0.6156862745);
+}
+body footer p {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=home.css.map */

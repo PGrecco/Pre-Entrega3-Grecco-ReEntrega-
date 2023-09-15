@@ -33,12 +33,13 @@ background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rg
             .contenedor-publicaciones{
                 display: grid;
                 grid-template-columns: 550px 550px 550px 550px  ;
-                grid-template-rows:  520px 520px 520px 520px 520px ;
+                grid-template-rows:  520px 520px 540px 560px 200px ;
                 
 
                 .post0{
                     background-color: #444444;
                     border: 2px solid #111;
+                    border-radius: 5px;
                     margin-top: 30px;
                     grid-column: 2/3;
                     grid-row: 1/2;
@@ -80,6 +81,9 @@ background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rg
                             width: 90px;
                             background-color: rgb(223, 13, 13);
                             color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
                         }
                         .compartir{
                             border: none;
@@ -88,6 +92,9 @@ background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rg
                             width: 90px;
                             background-color: rgb(55, 95, 202);
                             color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
 
                         }
                         .comentar{
@@ -97,23 +104,31 @@ background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rg
                             width: 90px;
                             background-color: rgb(55, 95, 202);
                             color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
                         }
                         a{
                             i{
                                 color: #111;
                                 font-size: 20px;
                                 margin-left: 10px;
+                                &:hover{
+                                    transform:scale(0.8);
+                                }
                             }
                         }
                     }
                    
                 }
                 .post1{
+
+                    background-color: #444444;
                     border: 2px solid #111;
+                    border-radius: 5px;
                     margin-top: 30px;
                     grid-column: 2/3;
                     grid-row: 2/3;
-                    
                     .post-usuario{
                         display: flex;
                         align-items: center;
@@ -152,6 +167,9 @@ background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rg
                             width: 90px;
                             background-color: rgb(223, 13, 13);
                             color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
                         }
                         .compartir{
                             border: none;
@@ -160,6 +178,9 @@ background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rg
                             width: 90px;
                             background-color: rgb(55, 95, 202);
                             color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
 
                         }
                         .comentar{
@@ -169,29 +190,432 @@ background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rg
                             width: 90px;
                             background-color: rgb(55, 95, 202);
                             color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
                         }
                         a{
                             i{
                                 color: #111;
                                 font-size: 20px;
                                 margin-left: 10px;
+                                &:hover{
+                                    transform:scale(0.8);
+                                }
                             }
                         }
                     }
+                   
                 }
                 .post2{
+                    border-radius: 5px;
+                    background-color: #444444;
                     border: 2px solid #111;
                     margin-top: 30px;
                     grid-column: 2/3;
                     grid-row: 3/4;
+                    .post-usuario{
+                        display: flex;
+                        align-items: center;
+                        h2{
+                            font-size: 20px;
+                            margin-left: 10px;
+                            color: #fff;
+                        }
+                        img{
+                            height: 60px;
+                            padding-top: 10px;
+                            padding-left: 10px;
+                        }
+                    }
+                    .post-contenido{
+                        p{
+                            color: #fff;
+                            margin-left: 20px;
+                            margin-top: 10px;
+                            font-size: 15px;
+                            margin-bottom: 5px;
+                        }
+                        img{
+                            height: 310px;
+                            margin-left: 20px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .post-actions{
+                        margin-left: 30px;
+                        margin-bottom: 20px;
+                        .like{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(223, 13, 13);
+                            color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
+                        }
+                        .compartir{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(55, 95, 202);
+                            color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
+
+                        }
+                        .comentar{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(55, 95, 202);
+                            color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
+                        }
+                        a{
+                            i{
+                                color: #111;
+                                font-size: 20px;
+                                margin-left: 10px;
+                                &:hover{
+                                    transform:scale(0.8);
+                                }
+                            }
+                        }
+                    }
+                   
                 }
                 .post3{
+                    border-radius: 5px;
+                    background-color: #444444;
                     border: 2px solid #111;
                     margin-top: 30px;
                     grid-column: 2/3;
                     grid-row: 4/5;
+                    .post-usuario{
+                        display: flex;
+                        align-items: center;
+                        h2{
+                            font-size: 20px;
+                            margin-left: 10px;
+                            color: #fff;
+                            
+                        }
+                        img{
+                            height: 60px;
+                            padding-top: 10px;
+                            padding-left: 10px;
+                        }
+                    }
+                    .post-contenido{
+                        p{
+                            color: #fff;
+                            margin-left: 20px;
+                            margin-top: 10px;
+                            font-size: 15px;
+                            margin-bottom: 5px;
+                        }
+                        img{
+                            height: 310px;
+                            margin-left: 20px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .post-actions{
+                        margin-left: 30px;
+                        margin-bottom: 20px;
+                        .like{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(223, 13, 13);
+                            color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
+                        }
+                        .compartir{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(55, 95, 202);
+                            color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
+
+                        }
+                        .comentar{
+                            border: none;
+                            border-radius: 10px;
+                            height: 40px;
+                            width: 90px;
+                            background-color: rgb(55, 95, 202);
+                            color: #fff;
+                            &:hover{
+                                transform:scale(0.8);
+                            }
+                        }
+                        a{
+                            i{
+                                color: #111;
+                                font-size: 20px;
+                                margin-left: 10px;
+                                &:hover{
+                                    transform:scale(0.8);
+                                }
+                            }
+                        }
+                    }
+                   
+                }
+
+
+                .columna-derecha{
+                    background-color: #696969;
+                    grid-column: 4/5;
+                    grid-row: 1/5;
+                    .publicidades{
+                        ul{
+                            hr{
+                                margin-top: 0px;
+                                height: 5px;
+                            }
+                            h2{
+                                margin-top: 20px;
+                                color: #fff;
+                            }
+                            li{
+                                list-style: none;
+                                a{
+                                    text-decoration: none;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                
+                    }
+                    .lista-paginas{
+                        ul{
+                            h2{
+                                margin-top: 20px;
+                                color: #fff;
+                            }
+                            hr{
+                                margin-top: 0px;
+                            }
+                            li{
+                                list-style: none;
+                                a{
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                    .amigos-en-linea{
+                        background-color: #696969;
+                        ul{
+                            h2{
+                                margin-top: 20px;
+                                color: #fff;
+                            }
+                            hr{
+                                margin-top: 0px;
+                            }
+                            li{
+                                list-style: none;
+                                a{
+                                    color: #fff;
+
+                                    .online{
+                                        color: rgb(50, 250, 50);
+                                    }
+                                    .outline{
+                                        color: red;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .columna-izquierda{
+                    grid-column: 1/2;
+                    grid-row: 1/5;
+                    .perfil{
+                        img{
+                            height: 100px;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        }
+                        h2{
+                            font-size: 20px;
+                            margin-top: 5px;
+                            margin-left: 20px;
+                            color: #fff;
+                        }
+
+                    }
+                    .chating{
+                        background: rgb(55, 95, 202);
+                        // border: 1px solid #111;
+                        h3{
+                        margin-left: 50px;
+                        padding-top: 10px;
+                        color: #fff;
+                        margin-bottom: 0px;
+                        }
+                        hr{
+                            margin-top: 0px;
+                        }
+                        .chats{
+                            display: flex;
+                            ul{
+                                li{
+                                    list-style: none;
+                                    margin-left: 0px;
+                                    a{
+                                        color: #fff;
+    
+                                        .online{
+                                            color: rgb(50, 250, 50);
+                                        }
+                                        .outline{
+                                            color: red;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                   
+
+                }
+                .eventos{
+                    h3{
+                        margin-top: 30px;
+                        color: #fff;
+                        margin-left: 40px;
+                        margin-bottom: 0px;
+                    }
+                    hr{
+                        margin-top: 0px;
+                    }
+                    .calendario{
+                        margin-left: 40px;
+                        table{
+                            thead{
+                                tr{
+                                    th{
+                                        background-color: #fff;
+                                        padding: 4px;
+                                        color: #111;
+                                        border: 2px solid #111;
+                                    }
+                                }
+                            }
+                            tbody{
+                                tr{
+                                    td{
+                                        background-color: #696969;
+                                        padding-left: 6px;
+                                        border: 2px solid #111;
+                                        a{
+                                            color: #fff;
+                                            .date{
+                                                color: red;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                
+                    }
+                }
+                .juegos{
+                    h3{
+                        margin-top: 30px;
+                        color: #fff;
+                        margin-left: 40px;
+                        margin-bottom: 0px
+                    }
+                    hr{
+                        margin-top: 0px;
+                    }
+                    ul{
+                        li{
+                            list-style: none;
+                            a{
+                                color: #fff;
+                                font-size: 20px;
+                                color: rgb(155, 173, 231);
+                                &:hover{
+                                    color: rgb(241, 241, 241);
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        footer{
+            position: end;
+            bottom: 0;
+            height: 200px;
+            left: 0;
+            width: 100%;
+            background-color: #ffff;
+            hr{
+                width: 80%;
+                float: left;
+            }
+            .idiomas{
+                text-decoration: none;
+                color: #6b6969ef;
+                margin-left: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                letter-spacing: 1px;
+        
+                &:hover{
+                    text-decoration: underline;
+                    color: #3636369d;
                 }
             }
+        
+            .services{
+                text-decoration: none;
+                color: #6b6969ef;
+                margin-left: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                letter-spacing: 1px;
+        
+                &:hover{
+                    text-decoration: underline;
+                    color: #3636369d;
+                }
+            }
+        
+            p{
+                margin-left: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+            }
+        
         }
 
 
