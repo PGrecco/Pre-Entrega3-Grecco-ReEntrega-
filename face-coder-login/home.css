@@ -533,4 +533,39 @@ body footer p {
   font-size: 12px;
 }
 
+@media only screen and (max-width: 720px) {
+  nav {
+    height: auto;
+    padding: 10px;
+  }
+  nav navbar-nav {
+    display: block;
+    text-align: center;
+  }
+  nav a {
+    margin: 10px 0;
+  }
+  nav .log-out {
+    float: none;
+    margin-left: 0;
+    text-align: center;
+  }
+  main .contenedor-publicaciones {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+  }
+  main contenedor-publicaciones .post0 {
+    grid-column: 1/2;
+  }
+  main contenedor-publicaciones .post1 {
+    grid-column: 1/2;
+  }
+  main contenedor-publicaciones .post2 {
+    grid-column: 1/2;
+  }
+  main contenedor-publicaciones .post3 {
+    grid-column: 1/2;
+  }
+}
+
 /*# sourceMappingURL=home.css.map */

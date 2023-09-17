@@ -618,14 +618,56 @@ background: linear-gradient(86deg, rgba(52,52,52,1) 0%, rgba(85,85,87,1) 35%, rg
         
         }
 
-
-
-
-
-
-
-
-
-
-
     }
+
+    @media only screen and (max-width: 720px) {
+        nav {
+            height: auto; 
+            padding: 10px; 
+        }
+    
+        nav{ 
+            navbar-nav {
+            display: block; 
+            text-align: center; 
+        }
+    }
+    
+        nav{ 
+            a {
+            margin: 10px 0; 
+        }
+    
+    
+        .log-out {
+            float: none; 
+            margin-left: 0; 
+            text-align: center; 
+        }
+    }
+    
+        main{ 
+        .contenedor-publicaciones {
+            grid-template-columns: 1fr; 
+            grid-template-rows: repeat(5, auto); 
+        }
+    }
+    
+        main{
+            contenedor-publicaciones{
+                .post0{
+                    grid-column: 1 / 2; 
+                }
+                .post1{
+                    grid-column: 1 / 2; 
+                }
+                .post2{
+                    grid-column: 1 / 2; 
+                }
+                .post3{
+                    grid-column: 1 / 2; 
+                }
+
+            }    
+    }
+}
