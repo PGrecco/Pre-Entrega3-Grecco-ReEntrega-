@@ -1,6 +1,15 @@
-footer{
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*font-family: 'Bebas Neue', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+/*font-family: 'Lalezar', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+/*font-family: 'Titillium Web', sans-serif;*/
+
+
+
+header{
     background-color: rgb(55, 95, 202);
-    height: 250px;
+    height: 230px;
     .logos{
         display: flex;
         img{
@@ -17,9 +26,135 @@ footer{
             font-size: 50px;
             text-transform: uppercase;
             color: #fff;
-            font-family: 'Titillium Web', sans-serif;
     
         }
+
     }
     
+}
+
+main{
+    .datos-personales{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows:  auto auto auto auto auto auto auto auto;
+        
+        .form-name{
+            grid-column: 2/4;
+            grid-row: 1/2;
+            margin-top: 20px;
+        }
+       
+        .form-apellido{
+            grid-column: 2/4;
+            grid-row: 2/3;
+            margin-top: 20px;
+        }
+
+        .btn-age{
+            grid-column: 2/4;
+            grid-row: 3/4;
+            margin-top: 20px;
+            button{
+                background-color: rgb(55, 95, 202);
+                color: #fff;
+            }
+        }
+
+        .form-dni{
+            grid-column: 2/4;
+            grid-row: 4/5;
+            margin-top: 20px;
+
+        }
+
+        .form-genero{
+            grid-column: 2/4;
+            grid-row: 5/6;
+            margin-top: 20px;
+            button{
+                background-color: rgb(55, 95, 202);
+                color: #fff;
+            }
+
+        }
+
+        .form-email{
+            grid-column: 2/4;
+            grid-row: 6/7;
+            margin-top: 20px;
+
+        }
+
+        .form-username{
+            grid-column: 2/4;
+            grid-row: 7/8;
+            margin-top: 20px;
+
+        }
+
+        .form-password{
+            grid-column: 2/4;
+            grid-row: 8/9;
+            margin-top: 20px;
+
+        }
+
+        .btn-registro{
+            grid-column: 3/4;
+            grid-row: 9/10;
+            margin-top: 20px;
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+
+    }
+}
+
+footer{
+    padding-top: 19px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffff;
+    hr{
+        width: 80%;
+        float: left;
+    }
+    .idiomas{
+        text-decoration: none;
+        color: #6b6969ef;
+        margin-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        letter-spacing: 1px;
+
+        &:hover{
+            text-decoration: underline;
+            color: #3636369d;
+        }
+    }
+
+    .services{
+        text-decoration: none;
+        color: #6b6969ef;
+        margin-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        letter-spacing: 1px;
+
+        &:hover{
+            text-decoration: underline;
+            color: #3636369d;
+        }
+    }
+
+    p{
+        margin-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
 }
